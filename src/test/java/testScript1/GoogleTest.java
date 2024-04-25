@@ -20,6 +20,8 @@ public class GoogleTest {
 		seachBox.sendKeys("Java Tutorial");
 		seachBox.sendKeys(Keys.ENTER);
 		System.out.println("Page Title :" + driver.getTitle());
+		
+	
 	}
 
 }
